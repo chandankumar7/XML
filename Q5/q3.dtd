@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT payroll (Employee+)>
+<!ELEMENT Employee (_10,Name,Department,Basicpay,Manager)>
+<!ELEMENT _10 (#PCDATA)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Department (#PCDATA)>
+<!ELEMENT Basicpay (#PCDATA)>
+<!ELEMENT Manager (#PCDATA)>

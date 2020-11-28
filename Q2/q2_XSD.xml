@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="q2.xsl"?>
+
+<catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="q2.xsd">
+
+    <cd>
+	<title>Traveling Riverside Blues</title>
+	<artist>Led Zeppelin</artist>
+	<company>Warner music group</company>
+	<price>40</price>
+	<year_of_release>1969</year_of_release>
+	</cd>
+	
+	<cd>
+	<title>A Brand New Day</title>
+	<artist>Michael Jackson</artist>
+	<company>South Korean</company>
+	<price>13.42</price>
+	<year_of_release>1978</year_of_release>
+	</cd>
+	
+	
+	<cd>
+	<title>The Dark Side of the Moon</title>
+	<artist>Pink Floyd</artist>
+	<company>Columbia</company>
+	<price>14.3</price>
+	<year_of_release>1985</year_of_release>
+	</cd>
+
+</catalog>

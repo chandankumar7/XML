@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="q3.xsl"?>
+
+<!DOCTYPE library 
+[
+	<!ELEMENT library (student+)>
+	<!ELEMENT student (rollno,bookname,author,date-owned)>
+	<!ELEMENT rollno (#PCDATA)>
+	<!ELEMENT bookname (#PCDATA)>
+	<!ELEMENT author (#PCDATA)>
+	<!ELEMENT date-owned (date-taken,date-returned)>
+	<!ELEMENT date-taken (#PCDATA)>
+	<!ELEMENT date-returned (#PCDATA)>
+]>
+
+<library>
+    <student>
+    <rollno>10</rollno>
+    <bookname>CC</bookname>
+    <author>WilliamWhite</author>
+    <date-owned>
+    <date-taken>2020-10-12</date-taken>
+    <date-returned>2020-10-15</date-returned>
+    </date-owned>
+    </student>
+
+    <student>
+    <rollno>25</rollno>
+    <bookname>Modern Physics</bookname>
+    <author>SLArora</author>
+    <date-owned>
+    <date-taken>2019-06-15</date-taken>
+    <date-returned>2019-06-20</date-returned>
+    </date-owned>
+    </student>
+    
+    
+    <student>
+    <rollno>30</rollno>
+    <bookname>BDA</bookname>
+    <author>MorganKaufmann</author>
+    <date-owned>
+    <date-taken>2020-11-16</date-taken>
+    <date-returned>2020-11-25</date-returned>
+    </date-owned>
+    </student>
+</library>

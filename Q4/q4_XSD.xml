@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="q4.xsl"?>
+
+
+<catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="q4.xsd">
+
+	<book>
+	<id>7645</id>
+	<author>Stephenie Meyer</author>
+	<title>New Moon</title>
+	<genre>Novel</genre>
+	<price>22.50</price>
+	<date_of_publishing>2006-05-20</date_of_publishing>
+	<description> The novel continues the story of Bella Swan and vampire Edward Cullen's relationship</description>
+	</book>
+	
+	<book>
+	<id>2641</id>
+	<author>Robert C. Martin</author>
+	<title>Clean Code</title>
+	<genre>Education</genre>
+	<price>2267</price>
+	<date_of_publishing>2008-01-12</date_of_publishing>
+	<description>A Handbook Of Agile Software Craftsmanship Book</description>
+	</book>
+	
+	
+	<book>
+	<id>76413</id>
+	<author>Sharad Kumar Verma</author>
+	<title>Computer Networks</title>
+	<genre>Education</genre>
+	<price>450</price>
+	<date_of_publishing>2010-06-05</date_of_publishing>
+	<description>Fundamentals of networking criteria</description>
+	</book>
+</catalog>

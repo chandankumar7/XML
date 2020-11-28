@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT library (student+)>
+<!ELEMENT student (rollno,bookname,author,date-owned)>
+<!ELEMENT rollno (#PCDATA)>
+<!ELEMENT bookname (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT date-owned (date-taken,date-returned)>
+<!ELEMENT date-taken (#PCDATA)>
+<!ELEMENT date-returned (#PCDATA)>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="q1.xsl"?>
+
+<!DOCTYPE records SYSTEM "q1.dtd">
+
+<records>
+      <student>
+         <rollno>407</rollno>
+         <firstname>Ram</firstname>
+         <lastname>Kumar</lastname>
+         <marks>55</marks>
+       </student>
+	   
+       <student>
+         <rollno>417</rollno>
+         <firstname>Mario</firstname>
+         <lastname>Fernandes</lastname>
+         <marks>60</marks>
+       </student>
+	   
+       <student>
+         <rollno>430</rollno>
+         <firstname>Robert</firstname>
+         <lastname>Carter</lastname>
+         <marks>80</marks>
+       </student> 
+	   
+</records>

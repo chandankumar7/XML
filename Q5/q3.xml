@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="q3.xsl"?>
+<!--
+<!DOCTYPE lib SYSTEM "q3.dtd">
+-->
+
+<payroll xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="q3.xsd">
+<!--<payroll>-->
+    <Employee>
+	    <_10>3215</_10>
+		<Name>Tom</Name>
+		<Department>Design</Department>
+		<Basicpay>12000</Basicpay>
+		<Manager>Richard West</Manager>
+	</Employee>
+	<Employee>
+	    <_10>3228</_10>
+		<Name>Jerry</Name>
+		<Department>Design</Department>
+		<Basicpay>9000</Basicpay>
+		<Manager>Percy Jackson</Manager>
+	</Employee>
+</payroll>

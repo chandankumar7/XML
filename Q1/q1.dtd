@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT records (student+)>
+<!ELEMENT student (rollno,firstname,lastname,marks)>
+<!ELEMENT rollno (#PCDATA)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT marks (#PCDATA)>

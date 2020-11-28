@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="q4.xsl"?>
+
+
+<!DOCTYPE catalog
+[
+	<!ELEMENT  catalog (book+)>
+	<!ELEMENT  book (id,author,title,genre,price,date_of_publishing,description)>
+	<!ELEMENT id (#PCDATA)>
+	<!ELEMENT author (#PCDATA)>
+	<!ELEMENT  title (#PCDATA)>
+	<!ELEMENT genre (#PCDATA)>
+	<!ELEMENT  price (#PCDATA)>
+	<!ELEMENT  date_of_publishing (#PCDATA)>
+	<!ELEMENT description (#PCDATA)>
+]>
+
+
+
+<catalog>
+	<book>
+	<id>7645</id>
+	<author>Stephenie Meyer</author>
+	<title>New Moon</title>
+	<genre>Novel</genre>
+	<price>22.50</price>
+	<date_of_publishing>2006-05-20</date_of_publishing>
+	<description> The novel continues the story of Bella Swan and vampire Edward Cullen's relationship</description>
+	</book>
+	
+	<book>
+	<id>2641</id>
+	<author>Robert C. Martin</author>
+	<title>Clean Code</title>
+	<genre>Education</genre>
+	<price>2267</price>
+	<date_of_publishing>2008-01-12</date_of_publishing>
+	<description>A Handbook Of Agile Software Craftsmanship Book</description>
+	</book>
+	
+	
+	<book>
+	<id>76413</id>
+	<author>Sharad Kumar Verma</author>
+	<title>Computer Networks</title>
+	<genre>Education</genre>
+	<price>450</price>
+	<date_of_publishing>2010-06-05</date_of_publishing>
+	<description>Fundamentals of networking criteria</description>
+	</book>
+</catalog>
